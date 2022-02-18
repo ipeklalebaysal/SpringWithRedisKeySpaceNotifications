@@ -1,0 +1,30 @@
+{
+  "request": {
+    "url": "/test",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "hello!",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "request": {
+    "url": "/",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "ARN": "arn:aws:secretsmanager:us-west-2:123456789012:secret:MyTestDatabaseSecret-a1b2c3",
+      "CreatedDate": 1523477145.713,
+      "Name": "MyTestDatabaseSecret",
+      "SecretString": "{\"gateways\":[{\"name\":\"stripe\",\"token\":\"sk_test_51HtD80BS76IOahf9UbDvNTXs4y0jYk3USEvAcyWI3Tdtm8MBn5zD0lS00GEvbDpOe8idxyV3EWjOuOxjLZUfJrJE00wxfcAY3H\"}]}",
+      "VersionId": "EXAMPLE1-90ab-cdef-fedc-ba987SECRET1",
+      "VersionStages": [
+        "AWSPREVIOUS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+com/redisDemoApp/storageConfiguration/KeyExpiredListener.java
+ com.redisDemoApp.storageConfiguration.KeyExpiredListener
+com/redisDemoApp/wiremockClient/WireMockClient.java
+ com.redisDemoApp.wiremockClient.WireMockClient
+com/redisDemoApp/RedisDemoSpringApplication.java
+ com.redisDemoApp.RedisDemoSpringApplication
+com/redisDemoApp/controller/PeopleRequestsController.java
+ com.redisDemoApp.controller.PeopleRequestsController
+com/redisDemoApp/storageConfiguration/StorageClient.java
+ com.redisDemoApp.storageConfiguration.StorageClient
+com/redisDemoApp/peopleOperations/People.java
+ com.redisDemoApp.peopleOperations.People

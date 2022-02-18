@@ -1,0 +1,16 @@
+
+J
+java:S3740 "/Provide the parametrized type for this generic.(®ÄÑ´ÿÿÿÿÿ
+E
+java:S3740""/Provide the parametrized type for this generic.(”¥ÆÃ
+V	java:S125"<This block of commented-out lines of code should be removed.(ä¤†ıÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(÷úÅ‘ùÿÿÿÿ
+[
+java:S1128">Remove this unused import 'java.nio.charset.StandardCharsets'.(ï˜ŞÛ8…Âïİ/
+V
+java:S1128"4Remove this unused import 'java.time.ZonedDateTime'.(Å¯Ğ©ûÿÿÿÿ8†Âïİ/
+l
+java:S1128	"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8†Âïİ/
+v
+java:S1128"TRemove this unused import 'org.springframework.web.reactive.function.BodyInserters'.(×¸™øÿÿÿÿ8†Âïİ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úÏ³Äúÿÿÿÿ

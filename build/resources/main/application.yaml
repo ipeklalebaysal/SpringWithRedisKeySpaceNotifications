@@ -1,0 +1,8 @@
+#server:
+#  port: 1200
+#
+#people:
+#  name: "${IPEK_NAME:#{null}}"
+#
+#wiremock:
+#  url: "http://wiremock:8080"

@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+#  redis-demo-spring:
+#    image: redisdemospring
+#    environment:
+#      - IPEK_NAME=Baysal
+#      - WIREMOCK_URL=http://wiremock:8080
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    ports:
+#      - 1200:8080
+  redis:
+    image: 'bitnami/redis:latest'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - 6379:6379
+#  wiremock:
+#    image: rodolpheche/wiremock
+#    container_name: wiremock
+#    volumes:
+#      - ./mappings:/home/wiremock/mappings
+#    ports:
+#      - 2051:8080
